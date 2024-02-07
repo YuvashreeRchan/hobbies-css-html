@@ -1,0 +1,58 @@
+
+/* Selector: h1 */
+h1{
+  text-align: center; /* Center-align the heading */
+    color: rgb(233, 100, 67); /* color for the heading */
+}
+
+body span{
+  color:rgb(104, 118, 170);
+}
+
+/* Selector: ul */
+ul {
+  padding: 0; 
+}
+
+/* Class Selector: .link-button */
+
+.link-button{
+  display: inline-block; 
+  background-color:#f5bdbd;
+  color: rgb(255, 0, 0);
+  font-size: 15px; /* Font size */
+  padding: 20px 20px; /* Add padding around the text */
+  text-decoration: none; /* Remove default underline */
+  text-align: center;
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Add cursor pointer on hover */
+  width: 100px;
+  height: 100px;
+
+}
+.link-button:hover {
+  background-color: #CB2027; /* Darker red background color on hover */
+  color: rgb(255, 255, 255);
+}
+
+/* Selector: li */
+li {
+  margin-bottom: 20px; /* Adding space between list items */
+  padding: 15px; /* padding around each list item */
+  background-color: rgb(220, 231, 64); 
+  border-radius: 20px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add shadow for visual effect */
+}
+
+/* Selector: img */
+img {
+ 
+  border-radius: 10px; /* Rounded corners for images */
+  margin-bottom: 10px; /* Adding space below images */
+}
+
+/* Selector: p */
+p {
+  color: rgb(226, 105, 105); /* color for paragraphs */
+  margin-bottom: 0; 
+}
